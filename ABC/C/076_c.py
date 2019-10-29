@@ -1,3 +1,6 @@
+# 部分文字列をはじめる場所をkという0 <= k <= s-t の変数を使って補助してあげる考え方
+# greedyというのはkを決定する際に大きい方からきめていくことがgreedyなのか
+# いや16行目の部分か
 # pythonはindexでstringの文字を変更できない
 s = list(input())
 t = list(input())
