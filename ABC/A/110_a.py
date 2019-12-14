@@ -1,6 +1,2 @@
-import math
-import i
-a,b,c = map(int,input().split())
-formula = ""
-
-print(max(eval(f"{a}{b}+{c}"),eval(f"{a}+{b}{c}")))
+a,b,c = sorted(input().split(),reverse=True)
+print(max(eval(a + "+" + b + c),eval(a + b + "+" + c)))
